@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    color:hotpink;
+    background: lightgrey;
+    overflow: hidden;
+
+}
+.container{
+    width:400px;
+    height: 500px;
+    padding:20px;
+    background-color:lightcyan;
+    box-shadow: -6px -6px 26px rgb(37, 37, 35);
+    border-radius:10px;
+    margin: 10vh;
+}
+.container .title{
+    text-align: center;
+    margin:30px auto;
+}
+.container form{
+    display: block;
+}
+.container form input, .container form button{
+    /* outline:1px dotted rgb(19, 38, 53); */
+    outline:none;
+    border:none;
+    /* border:2px solid rgb(17, 223, 223); */
+    /* border-radius:10px; */
+    display: block;
+    font-size:15px;
+    margin:10px auto;
+}
+.container form input{
+    width:100%;
+    height: 25px;
+    padding:0 10px;
+    border: 3px solid yellowgreen;
+    border-radius: 50px;
+    background-color: rgba(207, 219, 227, 0.42);
+    box-shadow: -5px -4px 4px -3px,inset -4px -1px 4px 1px;
+}.container form input:focus{
+    box-shadow: -5px -5px 10px rgb(23, 192, 218);
+}
+
+.container form input::placeholder{
+   /* text-align: center; */
+   font-size:15px;
+}
+.container form button{
+    padding:6px 15px;
+    background-color: #4CAF50;
+    color:white;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+.container form button:hover{
+    
+    background-color:rgb(191, 25, 233);
+    opacity:80%;
+}
+div.bottom{
+    text-align:center;
+    /* font-size:80%; */
+    margin:50px auto;
+    font-size:15px;
+}
+div.bottom a{
+    color:#007bff;
+    text-decoration:none;
+}
+div.bottom a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+div.bottom .forgot{
+    display: block;
+}
